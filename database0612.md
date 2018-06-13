@@ -1,4 +1,4 @@
-<h2>데이터베이스 기초 2강 장석주 교수님 <h2>
+<h2>데이터베이스 기초 2강 장석주 교수님 </h2>
 
 SELECT * FROM TAP; : 테이블 내용을 모두 검색
 SELECT * FROM CUSTOMER WHERE NAME = ‘전지현’;
@@ -184,7 +184,7 @@ sql튜닝까지 완벽히 하고
 2번 sql+java 에러가난다면 sql의 에러인지 sql+java의 접점인지
 java에러인지 헷갈린다. 그러므로 1번이 좋은 방식일 수 있다. 그러므로 잘하는 사람은 sql튜닝까지 끝내놓고 java코딩을 함께한다. 
  
-<h2>과제 하나 더<h2> 
+<h2>과제 하나 더</h2> 
 number와 date 자료형에 사칙연산을 적용하는 sql문을 작성하라 
 select list와 where절에 사칙 연산을 사용할 수 있는 sql예문을 작성하라.
 
