@@ -1,0 +1,46 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--김민 / 2018.06.01-->
+<!--jsp 인자 parameter받아서 처리하기-->
+<html>
+<meta charset="utf-8">
+<head>
+</head>
+<!--html페이지에 form형태에서 값을 전달하기-->
+<body>
+<h1>성적입력추가</h1>
+<form method="post" action="insert_db.jsp">
+<table cellspacing=1 width=400 border =1> 
+<tr>
+<td width=300></td>
+<td width=100><p align=center>
+<!--양식을 만들기 메소드와 액션설정하기-->
+<input type="submit" value="추가"></td><br>
+</tr>
+</table>
+
+
+<table cellspacing =1 width =400 border =1>
+<tr>
+<td width=100> <p align=center> 이름</p></td> 
+<td width=300> <p align=center> 
+<input type="text" name="name" value='' > </p>
+</td>
+</tr>
+<td width=100> <p align=center> 학번</p></td> 
+<td width=300> <p align=center> 자동부여</p></td>
+    
+</tr>
+<td width=100> <p align=center> 국어</p></td>
+<td width=300> <p align=center> <input type="text" name="kor"  > </p></td> 
+</tr>
+<td width=100> <p align=center> 영어</p></td>
+<td width=300> <p align=center> <input type="text" name="eng"  > </p></td> 
+</tr>
+<td width=100> <p align=center> 수학</p></td>
+<td width=300> <p align=center> <input type="text" name="mat"  > </p></td> 
+</tr>
+</table>
+<!--서밋버튼만들기-->
+</form>
+</body>
+</html>
